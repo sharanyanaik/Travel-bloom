@@ -1,0 +1,255 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #0b2239;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+ font-family: 'Dancing Script', cursive;
+  line-height: 1.2;
+}
+
+.logo span {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f9a825;
+}
+
+/* Elegant Navbar Search Bar */
+.nav-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin-top: 10px;
+}
+
+.nav-search-bar input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 30px;
+  flex: 1;
+  min-width: 180px;
+}
+
+.nav-search-bar button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Primary Search Button */
+.nav-search-bar button:first-of-type {
+  background-color: #f9a825;
+  color: white;
+}
+
+.nav-search-bar button:first-of-type:hover {
+  background-color: #e69500;
+}
+
+/* Reset Button */
+.nav-search-bar .reset-btn {
+  background-color: #f9a825;
+  color:white;
+}
+
+.nav-search-bar .reset-btn:hover {
+  background-color: #e69500;
+}
+
+
+
+
+/* Home Section */
+#home {
+  height: 100vh;
+  background: url("travel1.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  column-gap: 250px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+#home .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#home p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+/* Search Results */
+#results {
+  margin: 40px auto;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: #333;
+  text-align: center;
+  font-size: 1px;
+  
+}
+
+
+#results h3 {
+  color: #0b2239;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#results p {
+  color: #555;
+}
+
+  .search-results {
+    padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  max-height: 650px;
+}
+
+
+
+.search-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  max-width: 350px;
+  height: 320px; /* ✅ fixed height */
+  padding: 0;
+}
+
+.search-card img {
+  width: 100%;
+  height: 60%;           /* ✅ image takes 60% of card */
+  object-fit: cover;
+}
+
+.search-card .text-box {
+  height: 40%;           /* ✅ text takes 40% of card */
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#result{
+    color: rgb(14, 8, 1);
+
+
+}
+
+
+/* Footer */
+footer {
+  background-color: #0b2239;
+  color: white;
+  padding: 40px 20px 10px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.socials a {
+  margin: 0 12px;
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socials a:hover {
+  color: #f9a825;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff30;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
