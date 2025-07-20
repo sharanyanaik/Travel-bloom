@@ -1,0 +1,97 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "images/a1.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "images/a2.jpg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "images/j1.jpg",
+            "description": "A bustling metropolis blending tradition famous for its cherry blossoms"
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "images/j2.jpg",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "images/br1.jpg",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "images/br2.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "India",
+        "cities": [
+          {
+            "name": "Taj Mahal,India",
+            "imageUrl": "images/i1.jpg",
+            "description":"A symbol of eternal love, it is a stunning white marble monument and UNESCO World Heritage Site."
+          },
+          {
+            "name": "Shimla, India",
+            "imageUrl": "images/i2.jpg",
+            "description": "A charming hill station offering scenic views, pleasant weather, and colonial architecture"
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Temple",
+        "imageUrl": "images/t1.jpg",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Badrinath, Temple",
+        "imageUrl": "images/t2.jpg",
+        "description": "A revered temple dedicated to Lord Vishnu, located in the Himalayas."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora Beach",
+        "imageUrl": "images/b1.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach",
+        "imageUrl": "images/b2.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  

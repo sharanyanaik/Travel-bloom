@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelBloom</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+
+ <nav>
+  <div class="logo">Travel Bloom</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutUs.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <!-- Search Bar INSIDE nav -->
+  <div class="nav-search-bar">
+    <input type="text" id="searchInput" placeholder="Temple,Country,Beach.." />
+    <button id="searchInput" onclick="search()">Search</button>
+    <button onclick="resetSearch()" class="reset-btn">Reset</button>
+  </div>
+</nav>
+
+  <!-- Home Section -->
+  <section id="home">
+      
+    <div class="overlay">
+      <h1>Exploring The World</h1>
+      <p>Discover ideal destinations based on your preferences</p>
+      
+    </div>
+    <div id="result" class="search-results"></div>
+  </section>
+   
+<!-- Search Results (PLACE THIS AFTER HERO SECTION) -->
+
+  
+  
+  <footer>
+  <div class="footer-content">
+    <h3>Travel Bloom</h3>
+    <p>Explore the world with us – where every destination blooms with adventure!</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Travel Bloom. All rights reserved.</p>
+  </div>
+</footer>
+  <!-- Ensure this is LAST -->
+  <script src="index.js"></script>
+</body>
+</html>
